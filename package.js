@@ -1,8 +1,8 @@
 Package.describe({
   name: 'japetheape:keyvalue-inline-edit',
-  version: '0.0.1',
+  version: '0.0.2',
   // Brief, one-line summary of the package.
-  summary: 'A inline edit key value editor',
+    summary: 'An inline key value editor, usable as supersimple CMS.',
   // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/japetheape/keyvalue-inline-edit',
   // By default, Meteor will default to using README.md for documentation.

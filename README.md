@@ -17,6 +17,14 @@ Somewhere else on the page place the control element.
 
 Whith this you control the edit mode of the page.
 
+## Demo
+
+Go to: http://keyvalue-inline-edit-demo.meteor.com to see how it works, see [source](https://github.com/japetheape/keyvalue-inline-edit-demo) here.
+
 
 ## Security
 None! This is purely for use in a controlled environment. The collection used for saving the key values is editable for everyone else.
+
+
+## Author
+Written by: http://jaapvandermeer.com of http://ape55.com, contact us for Meteor projects!
