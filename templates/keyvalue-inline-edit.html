@@ -1,0 +1,36 @@
+<template name='inlineEdit'>
+  {{#if inEditMode}}
+    {{>inlineEditInput}}
+  {{else}}
+    {{value}}
+  {{/if}}
+</template>
+
+
+<template name='inlineEditInput'>
+  <div class='inline-edit-input'>
+    {{#if inLocalEditMode}}
+      {{#if showInput}}
+        <input value="{{valueForInput}}" name='value' />
+      {{/if}}
+
+      {{#if showTextArea}}
+        <textarea name='value'>{{valueForInput}}</textarea>
+      {{/if}}
+      <input type='button' value="Ok" class='save' />
+    {{else}}
+      <div class='value'>{{value}}</div>
+    {{/if}}
+  </div>
+</template>
+
+
+<template name='inlineEditControl'>
+  <div class='inline-edit-control'>
+    {{#if inEditMode}}
+      <a class='btn stop' href='#'>Stop editing</a>
+    {{else}}
+      <a class='btn start' href='#'>Start editing</a>
+    {{/if}}
+  </div>
+</template>
