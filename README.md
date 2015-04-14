@@ -1,5 +1,5 @@
 # Keyvalue Inline Edit
-This is a simple Meteor.js package to do inline editing based on one colleciton wich is essentially a key value store.
+This is a simple Meteor.js package to do inline editing based on one collection wich is essentially a key value store.
 
 
 ## Example
@@ -23,7 +23,7 @@ Go to: http://keyvalue-inline-edit-demo.meteor.com to see how it works, see [sou
 
 
 ## Security
-None! This is purely for use in a controlled environment. The collection used for saving the key values is editable for everyone else.
+None! This is purely for use in a controlled environment. The collection used for saving the key values is writable for anybody. In future this can be simply undone.
 
 
 ## Author
