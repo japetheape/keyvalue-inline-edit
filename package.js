@@ -1,6 +1,6 @@
 Package.describe({
   name: 'japetheape:keyvalue-inline-edit',
-  version: '0.0.3',
+  version: '0.0.4',
   // Brief, one-line summary of the package.
     summary: 'An inline key value editor, usable as supersimple CMS.',
   // URL to the Git repository containing the source code for this package.
